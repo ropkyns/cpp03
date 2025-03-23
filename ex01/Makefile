@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+         #
+#    By: palu <palu@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/21 14:08:25 by paulmart          #+#    #+#              #
-#    Updated: 2025/03/21 14:26:13 by paulmart         ###   ########.fr        #
+#    Updated: 2025/03/23 15:39:06 by palu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ SRC_DIR = src/
 OBJ_DIR = obj
 
 SRC_FILES = \
-	ScavTrap
+	ScavTrap.cpp \
 	ClapTrap.cpp \
 	main.cpp
 SRC = $(addprefix $(SRC_DIR)/, $(SRC_FILES))
