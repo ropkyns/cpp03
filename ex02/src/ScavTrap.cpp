@@ -6,7 +6,7 @@
 /*   By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/23 13:46:50 by palu              #+#    #+#             */
-/*   Updated: 2025/03/24 12:33:55 by paulmart         ###   ########.fr       */
+/*   Updated: 2025/03/24 11:49:27 by paulmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,8 +71,5 @@ void ScavTrap::attack(const std::string &target)
 
 void ScavTrap::guardGate()
 {
-	if (this->_hitPoint > 0)
-		std::cout << "ScavTrap : " << this->_name << " is now in Gate keeper mode." << std::endl;
-	else
-		std::cout << "ScavTrap : " << this->_name << " has 0 hit point and can't be in Gate keeper mode anymore." << std::endl;
+	std::cout << "ScavTrap : " << this->_name << " is now in Gate keeper mode." << std::endl;
 }
