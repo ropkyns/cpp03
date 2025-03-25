@@ -6,11 +6,11 @@
 #    By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/21 14:08:25 by paulmart          #+#    #+#              #
-#    Updated: 2025/03/24 15:15:09 by paulmart         ###   ########.fr        #
+#    Updated: 2025/03/25 10:41:43 by paulmart         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ScavTrap
+NAME = DiamondTrap
 
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -Wshadow -g3 -std=c++98 -I $(INCLUDE_DIR)

@@ -6,23 +6,23 @@
 /*   By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/21 11:43:48 by paulmart          #+#    #+#             */
-/*   Updated: 2025/03/24 12:55:21 by paulmart         ###   ########.fr       */
+/*   Updated: 2025/03/25 10:40:20 by paulmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/FragTrap.hpp"
+#include "../include/DiamondTrap.hpp"
 
 int main()
 {
 	ScavTrap x("Louise");
-	FragTrap y("George");
-	FragTrap z(y);
+	DiamondTrap y("George");
+	DiamondTrap z(y);
 
 	std::cout << std::endl;
 	x.attack("George");
 	y.takeDamage(0);
 	z.beRepaired(1);
-	z.highFivesGuys();
+	z.whoAmI();
 	x.guardGate();
 
 	std::cout << std::endl << "Oh no someone fell down in the stairs, guess who !" << std::endl;

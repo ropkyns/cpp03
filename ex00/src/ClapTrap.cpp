@@ -6,7 +6,7 @@
 /*   By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/21 11:44:16 by paulmart          #+#    #+#             */
-/*   Updated: 2025/03/21 16:48:50 by paulmart         ###   ########.fr       */
+/*   Updated: 2025/03/25 10:36:53 by paulmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,7 @@ void ClapTrap::beRepaired(unsigned int amount)
 		{
 			this->_energyPoint--;
 			this->_hitPoint += amount;
-			std::cout << "ClapTrap : " << this->_name << " has been repaired of" << amount << " hit point(s), he has now " << this->_hitPoint << " hit points" << std::endl;
+			std::cout << "ClapTrap : " << this->_name << " has been repaired of " << amount << " hit point(s), he has now " << this->_hitPoint << " hit points" << std::endl;
 		}
 	}
 	else

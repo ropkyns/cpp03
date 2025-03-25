@@ -6,7 +6,7 @@
 /*   By: paulmart <paulmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/24 14:06:35 by paulmart          #+#    #+#             */
-/*   Updated: 2025/03/24 15:03:03 by paulmart         ###   ########.fr       */
+/*   Updated: 2025/03/25 10:00:58 by paulmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,7 @@ class DiamondTrap : public ScavTrap, public FragTrap
 		DiamondTrap &operator= (const DiamondTrap &Diamond);
 
 		void	attack(const std::string &target);
+		void	whoAmI();
 
 };
 
